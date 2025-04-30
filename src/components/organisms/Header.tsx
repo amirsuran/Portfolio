@@ -45,18 +45,9 @@ export default function Header() {
           </ul>
         </nav>
 
-        {/* Right Side - Theme Toggle, Language Switcher and Mobile Menu */}
+        {/* Right Side - Theme Toggle and Mobile Menu */}
         <div className="flex items-center space-x-4">
           <ThemeToggle />
-          <button
-            className="rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
-            onClick={() => {
-              // TODO: Implement language switching logic
-              console.log("Language switch clicked");
-            }}
-          >
-            EN
-          </button>
           <MobileMenu links={navLinks} />
         </div>
       </div>
