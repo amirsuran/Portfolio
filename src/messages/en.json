@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Portfolio | Your Name",
+    "description": "Professional portfolio showcasing my work as a frontend developer."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building impactful digital experiences",
+    "subtitle": "Frontend Developer specializing in React.js and Next.js",
+    "cta_primary": "Download Resume",
+    "cta_secondary": "View Projects",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I'm a passionate frontend developer with experience building responsive, user-friendly web applications. I focus on creating clean, efficient code and intuitive user experiences. When I'm not coding, I enjoy photography and exploring new technologies."
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "Technologies I work with"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of my recent work",
+    "view_live": "Live Demo",
+    "view_code": "View Code"
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download Resume"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's talk",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2024 Your Name. All rights reserved."
+  }
+}
