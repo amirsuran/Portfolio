@@ -17,14 +17,14 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="relative mx-auto aspect-square h-auto max-w-sm overflow-hidden rounded-xl shadow-lg"
+          className="relative mx-auto aspect-square h-auto max-w-[300px] overflow-hidden rounded-full shadow-lg"
         >
           <Image
             src="/profile.jpg"
             alt="Profile"
             fill
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, 400px"
+            sizes="(max-width: 768px) 100vw, 300px"
             priority
           />
         </motion.div>
@@ -35,9 +35,9 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="flex flex-col justify-center"
+          className="flex flex-col justify-center space-y-4"
         >
-          <p className="mb-4 text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
             I&apos;m a passionate frontend developer with experience building
             responsive, user-friendly web applications. I focus on creating
             clean, efficient code and intuitive user experiences. When I&apos;m
