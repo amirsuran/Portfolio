@@ -38,10 +38,13 @@ export default function About() {
           className="flex flex-col justify-center space-y-4"
         >
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            I&apos;m a passionate frontend developer with experience building
-            responsive, user-friendly web applications. I focus on creating
-            clean, efficient code and intuitive user experiences. When I&apos;m
-            not coding, I enjoy photography and exploring new technologies.
+            Front-End Developer with 5 years of experience building
+            high-performance React & Next.js applications. Skilled in
+            TypeScript, SSR/SSG, GraphQL, React Query and TailwindCSS — shipped
+            features that increased engagement by 15% and reduced initial load
+            time by ~35% (Lighthouse). Experienced with Turborepo monorepos,
+            CI/CD (GitHub Actions & Vercel), accessibility and SEO
+            optimizations. Open to relocation and employer sponsorship.
           </p>
         </motion.div>
       </div>

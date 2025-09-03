@@ -80,7 +80,7 @@ export default function Contact() {
                   href="mailto:hello@example.com"
                   className="text-primary hover:underline"
                 >
-                  hello@example.com
+                  Amirhosseinsoran@gmail.com
                 </a>
               </p>
             </div>

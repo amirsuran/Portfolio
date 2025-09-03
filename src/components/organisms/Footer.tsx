@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-6 md:col-span-2">
             <Logo />
             <p className="text-sm text-text-muted">
-              © 2024 Your Name. All rights reserved.
+              © 2025 Amir Suran. All rights reserved.
             </p>
           </div>
 

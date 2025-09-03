@@ -11,7 +11,7 @@ export default function Logo({ className = "" }: LogoProps) {
       className={`text-2xl font-bold tracking-tighter transition-colors hover:text-primary ${className}`}
     >
       <span className="text-primary">{"<"}</span>
-      Developer
+      Amir Suran
       <span className="text-primary">{"/>"}</span>
     </Link>
   );
