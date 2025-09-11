@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="mt-20 border-t border-gray-200 py-12 dark:border-gray-800">
       <div className="container-custom">
         <div className="grid gap-10 md:grid-cols-4">
-          {/* Logo and copyright */}
           <div className="space-y-6 md:col-span-2">
             <Logo />
             <p className="text-sm text-text-muted">
@@ -62,7 +61,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/amirhsuran"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-text-muted transition-colors hover:text-primary"
@@ -72,22 +71,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/amirhsuran"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-text-muted transition-colors hover:text-primary"
                 >
                   LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-text-muted transition-colors hover:text-primary"
-                >
-                  Twitter
                 </a>
               </li>
             </ul>
