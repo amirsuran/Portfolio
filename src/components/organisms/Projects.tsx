@@ -10,7 +10,7 @@ export default function Projects() {
       role: "Frontend Developer",
       description:
         "A social media platform for connecting nearby users, featuring real-time messaging, location-based discovery, and personalized content feeds.",
-      image: "/project-image/project-1.jpg",
+      image: "/images/project-1.jpg",
       technologies: [
         "React",
         "Next.js",
@@ -26,7 +26,7 @@ export default function Projects() {
       role: "Lead Frontend Developer",
       description:
         "An AI-powered platform for artists to generate and customize artwork using machine learning algorithms. Features include style transfer, image enhancement, and custom art generation.",
-      image: "/project-image/project-2.jpg",
+      image: "/images/project-2.png",
       technologies: ["React", "TypeScript", "SCSS", "Framer Motion"],
       demoUrl: "https://honar.ai/privacy",
     },
