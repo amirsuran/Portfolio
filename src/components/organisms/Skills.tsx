@@ -13,16 +13,15 @@ import {
 } from "@/components/atoms/SkillIcons";
 
 export default function Skills() {
-  // Define skills with proficiency levels
   const skills = [
-    { name: "React", icon: <ReactIcon />, proficiency: 90 },
-    { name: "Next.js", icon: <NextJsIcon />, proficiency: 85 },
-    { name: "TypeScript", icon: <TypeScriptIcon />, proficiency: 80 },
-    { name: "Tailwind CSS", icon: <TailwindIcon />, proficiency: 95 },
-    { name: "Framer Motion", icon: <FramerMotionIcon />, proficiency: 75 },
-    { name: "Internationalization", icon: <NextIntlIcon />, proficiency: 70 },
+    { name: "React", icon: <ReactIcon />, proficiency: 91 },
+    { name: "Next.js", icon: <NextJsIcon />, proficiency: 90 },
+    { name: "TypeScript", icon: <TypeScriptIcon />, proficiency: 88 },
+    { name: "Tailwind CSS", icon: <TailwindIcon />, proficiency: 92 },
+    { name: "Framer Motion", icon: <FramerMotionIcon />, proficiency: 90 },
+    { name: "Internationalization", icon: <NextIntlIcon />, proficiency: 90 },
     { name: "SSR & SSG", icon: <SsrIcon />, proficiency: 85 },
-    { name: "SEO", icon: <SeoIcon />, proficiency: 80 },
+    { name: "SEO", icon: <SeoIcon />, proficiency: 90 },
   ];
 
   return (

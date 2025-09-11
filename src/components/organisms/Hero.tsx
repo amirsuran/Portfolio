@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Button from "@/components/atoms/Button";
 
 export default function Hero() {
-  // Animation variants
   const container = {
     hidden: { opacity: 0 },
     show: {

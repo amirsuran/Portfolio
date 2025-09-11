@@ -11,18 +11,24 @@ export default function Projects() {
       description:
         "A social media platform for connecting nearby users, featuring real-time messaging, location-based discovery, and personalized content feeds.",
       image: "/images/project-1.jpg",
-      technologies: ["React", "Next.js", "TailwindCSS", "GraphQL"],
+      technologies: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "GraphQL",
+        "typeScript",
+        "SSG&SSR",
+      ],
       demoUrl: "https://instayar.ir",
     },
     {
-      title: "Honar AI",
+      title: "RandomLetter",
       role: "Lead Frontend Developer",
       description:
         "An AI-powered platform for artists to generate and customize artwork using machine learning algorithms. Features include style transfer, image enhancement, and custom art generation.",
-      image: "/images/project-2.jpg",
+      image: "/images/project-2.png",
       technologies: ["React", "TypeScript", "SCSS", "Framer Motion"],
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com",
+      demoUrl: "https://honar.ai/privacy",
     },
   ];
 
@@ -40,7 +46,6 @@ export default function Projects() {
             image={project.image}
             technologies={project.technologies}
             demoUrl={project.demoUrl}
-            codeUrl={project.codeUrl}
             index={index}
           />
         ))}
