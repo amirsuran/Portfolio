@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-70 backdrop-blur-md dark:bg-background-dark dark:bg-opacity-70"
+      className="fixed top-0 left-0 right-0 z-50 bg-white/5 bg-opacity-70 backdrop-blur-[3px] dark:bg-background-dark dark:bg-opacity-70"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
