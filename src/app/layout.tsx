@@ -1,13 +1,12 @@
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-import ParticlesBackground from "@/components/molecules/ParticlesBackground";
 
 export const metadata = {
-  title: "Suran Portfolio",
+  title: "Portfolio | Your Name",
   description:
     "Professional portfolio showcasing my work as a frontend developer.",
   openGraph: {
-    title: "Suran Portfolio",
+    title: "Portfolio | Your Name",
     description:
       "Professional portfolio showcasing my work as a frontend developer.",
     type: "website",
@@ -22,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <ParticlesBackground />
         {children}
         <Analytics />
       </body>

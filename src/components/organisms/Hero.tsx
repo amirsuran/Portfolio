@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/atoms/Button";
+import ParticlesBackground from "@/components/molecules/ParticlesBackground";
+import GlitchText from "@/components/molecules/GlitchText";
 
 export default function Hero() {
   const container = {
@@ -37,7 +39,7 @@ export default function Hero() {
             className="mb-6 text-4xl font-bold sm:text-5xl md:text-6xl"
             variants={item}
           >
-            Building impactful digital experiences
+            <GlitchText className="text-inherit">Building impactful digital experiences</GlitchText>
           </motion.h1>
 
           {/* Subheading */}
@@ -96,6 +98,7 @@ export default function Hero() {
           </motion.a>
         </motion.div>
       </div>
+      <ParticlesBackground />
     </section>
   );
 }

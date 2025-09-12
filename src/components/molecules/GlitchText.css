@@ -1,0 +1,57 @@
+/* Subtle glitch effect: three layered copies with small translations and clip masks */
+.glitch {
+  --glitch-color-a: rgba(0, 255, 200, 0.06);
+  --glitch-color-b: rgba(255, 0, 150, 0.06);
+  --glitch-duration: 3.5s;
+  display: inline-block;
+}
+.glitch__base {
+  position: relative;
+  z-index: 3;
+}
+.glitch__top,
+.glitch__bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+.glitch__top {
+  color: inherit;
+  z-index: 2;
+  mix-blend-mode: screen;
+  transform: translateX(-1px);
+  animation: glitchTop var(--glitch-duration) linear infinite;
+  clip-path: inset(0 0 60% 0);
+}
+.glitch__bottom {
+  color: inherit;
+  z-index: 1;
+  mix-blend-mode: screen;
+  transform: translateX(1px);
+  animation: glitchBottom var(--glitch-duration) linear infinite;
+  clip-path: inset(60% 0 0 0);
+}
+
+@keyframes glitchTop {
+  0% { transform: translateX(-1px) translateY(0) skewX(0); opacity: 0.9 }
+  4% { transform: translateX(-6px) translateY(-2px) skewX(-1deg); opacity: 0.85 }
+  7% { transform: translateX(0) translateY(0) skewX(0); opacity: 0.9 }
+  100% { transform: translateX(-1px) translateY(0) skewX(0); opacity: 0.9 }
+}
+
+@keyframes glitchBottom {
+  0% { transform: translateX(1px) translateY(0) skewX(0); opacity: 0.9 }
+  6% { transform: translateX(6px) translateY(2px) skewX(1deg); opacity: 0.85 }
+  9% { transform: translateX(0) translateY(0) skewX(0); opacity: 0.9 }
+  100% { transform: translateX(1px) translateY(0) skewX(0); opacity: 0.9 }
+}
+
+/* Reduce motion for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .glitch__top,
+  .glitch__bottom { animation: none; transform: none; }
+}
