@@ -39,7 +39,9 @@ export default function Hero() {
             className="mb-6 text-4xl font-bold sm:text-5xl md:text-6xl"
             variants={item}
           >
-            <GlitchText className="text-inherit">Building impactful digital experiences</GlitchText>
+            <GlitchText className="text-inherit">
+              Building impactful digital experiences
+            </GlitchText>
           </motion.h1>
 
           {/* Subheading */}

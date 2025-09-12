@@ -82,7 +82,11 @@ export default function ParticlesBackground() {
         filter: isBlurred ? "blur(6px)" : "none",
       }}
     >
-      <Particles init={particlesInit} options={options} className="w-full h-full" />
+      <Particles
+        init={particlesInit}
+        options={options}
+        className="w-full h-full"
+      />
     </div>
   );
 }

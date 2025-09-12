@@ -2,11 +2,11 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
-  title: "Portfolio | Your Name",
+  title: "Suran Portfolio",
   description:
     "Professional portfolio showcasing my work as a frontend developer.",
   openGraph: {
-    title: "Portfolio | Your Name",
+    title: "Suran Portfolio",
     description:
       "Professional portfolio showcasing my work as a frontend developer.",
     type: "website",
