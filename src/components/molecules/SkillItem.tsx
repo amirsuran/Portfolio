@@ -25,7 +25,7 @@ export default function SkillItem({ name, icon, proficiency }: SkillItemProps) {
       <h3 className="mb-3 text-lg font-medium">{name}</h3>
 
       {/* Progress bar */}
-      <div className="mt-2 h-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+      <div className="mt-2 h-2 w-full rounded-full bg-gray-200 dark:bg-gray-800">
         <motion.div
           className="h-2 rounded-full bg-primary"
           style={{ width: `${proficiency}%` }}
@@ -41,7 +41,9 @@ export default function SkillItem({ name, icon, proficiency }: SkillItemProps) {
       </div>
 
       {/* Percentage */}
-      <span className="mt-1 text-sm text-text-muted">{proficiency}%</span>
+      <span className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+        {proficiency}%
+      </span>
     </motion.div>
   );
 }

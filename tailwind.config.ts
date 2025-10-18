@@ -24,6 +24,9 @@ const config: Config = {
       animation: {
         "bounce-slow": "bounce 2s infinite",
       },
+      colors: {
+        primary: "oklch(44.6% 0.03 256.802)",
+      },
     },
   },
   plugins: [],
