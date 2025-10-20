@@ -40,7 +40,7 @@ export default function SkillItem({ name, icon, proficiency }: SkillItemProps) {
         />
       </div>
 
-      {/* Percentage */}
+      {/* Percentage  */}
       <span className="mt-1 text-sm text-slate-500 dark:text-slate-400">
         {proficiency}%
       </span>
